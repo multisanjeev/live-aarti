@@ -17,7 +17,7 @@ pipeline {
 
         stage('test compile') {
           steps {
-            sh 'sh \'printenv\''
+            sh 'echo "test compile job"'
           }
         }
 
